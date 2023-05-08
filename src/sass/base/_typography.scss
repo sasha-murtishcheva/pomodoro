@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+.heading {
+  color: $color-grey-main;
+  font-family: 'Kumbh Sans', sans-serif;
+
+  &--level-1 {
+    font-size: 10rem;
+    line-height: 12rem;
+    font-weight: 700;
+    letter-spacing: -.5rem;
+    margin-bottom: 2rem;
+  }
+
+  &--level-2 {
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    font-weight: 700;
+  }
+
+  &--level-3 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 1.5rem;
+  }
+}
+
+.paragraph {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  color: $color-grey-main;
+
+  &--bigger {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  &--smaller {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+}

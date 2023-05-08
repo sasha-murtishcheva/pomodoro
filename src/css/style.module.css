@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #1E213F;
+}
+
+.heading {
+  color: #D7E0FF;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.heading--level-1 {
+  font-size: 10rem;
+  line-height: 12rem;
+  font-weight: 700;
+  letter-spacing: -0.5rem;
+  margin-bottom: 2rem;
+}
+.heading--level-2 {
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  font-weight: 700;
+}
+.heading--level-3 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 1.5rem;
+}
+
+.paragraph {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  color: #D7E0FF;
+}
+.paragraph--bigger {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+.paragraph--smaller {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.bar {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3rem;
+  width: 37rem;
+  height: 6.5rem;
+  background-color: #161932;
+  z-index: 10;
+}
+.bar__list {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.7rem;
+  width: 100%;
+}
+.bar__list-item {
+  list-style: none;
+  text-align: center;
+  width: 33%;
+}
+.bar__list-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+.bar__link {
+  display: inline-block;
+  width: 100%;
+  padding: 1.6rem 0;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s ease;
+}
+.bar__link:focus {
+  background-color: #F87070;
+  color: #161932;
+}
+
+.timer-background {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 41rem;
+  height: 41rem;
+  margin-top: 4.5rem;
+  border-radius: 50%;
+  background: linear-gradient(315deg, #2E325A 0%, #0E112A 100%);
+  box-shadow: -3rem -3rem 6rem #272C5A, 3rem 3rem 6rem #121530;
+}
+
+.timer-container {
+  width: 90%;
+  height: 90%;
+  transform: translate(2rem, 2rem);
+  border-radius: 50%;
+  background-color: #161932;
+}
+
+.timer-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  transform: translate(2rem, 2rem);
+  border-radius: 50%;
+  border: 1.5rem solid #F87070;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+/*# sourceMappingURL=style.module.css.map */
